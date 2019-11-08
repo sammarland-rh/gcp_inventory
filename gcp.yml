@@ -4,3 +4,9 @@ projects:
   - nwm-test-236613
 service_account_file: /etc/tower/service_account.json
 auth_kind: serviceaccount
+keyed_groups:
+  - prefix: gcp
+    key: labels
+hostnames:
+  - name
+
