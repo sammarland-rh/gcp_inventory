@@ -2,3 +2,5 @@ plugin: gcp_compute
 projects:
   - nwm-test-2
   - nwm-test-236613
+service_account_file: /etc/tower/service_account.json
+auth_kind: serviceaccount
