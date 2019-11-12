@@ -1,5 +1,8 @@
 plugin: gcp_compute
-projects: "*"
+projects:
+  - nwm-test-2
+  - nwm-test-236613
+  - kubernetes-sam-marland
 #service_account_file: /etc/tower/service_account.json
 auth_kind: serviceaccount
 keyed_groups:
