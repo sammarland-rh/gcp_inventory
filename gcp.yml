@@ -1,12 +1,7 @@
 plugin: gcp_compute
-projects:
-  - nwm-test-2
-  - nwm-test-236613
-  - kubernetes-sam-marland
+projects: *
 auth_kind: serviceaccount
 keyed_groups:
   - prefix: gcp
     key: labels
-hostnames:
- - name
 
